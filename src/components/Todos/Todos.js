@@ -150,16 +150,5 @@ class Todos extends React.Component{
     )
   }
 }
-
-const mapStateFromProps = state => ({
-  isLoading:state.user.isLoading
-})
-
-export default connect(mapStateFromProps)(Todos)
-
-
-// const mapStateToProps = state = ({
-//   user:state.user.currentUser
-// })
-
-// export default Todos;
+      
+export default Todos;
