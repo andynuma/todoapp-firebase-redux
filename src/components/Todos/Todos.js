@@ -3,7 +3,6 @@ import { Form } from "semantic-ui-react"
 import firebase from "../../firebase"
 import Todo from "./Todo"
 import Spinner from "../../Spinner";
-import { connect } from "react-redux"
 
 class Todos extends React.Component{
   state = {
